@@ -32,7 +32,7 @@ class MarktMentor:
 
 
 
-        Defaults to MarktMentorEnvironment.DEFAULT
+        Defaults to MarktMentorEnvironment.PRODUCTION
 
 
 
@@ -74,7 +74,7 @@ class MarktMentor:
         self,
         *,
         base_url: typing.Optional[str] = None,
-        environment: MarktMentorEnvironment = MarktMentorEnvironment.DEFAULT,
+        environment: MarktMentorEnvironment = MarktMentorEnvironment.PRODUCTION,
         token: typing.Union[str, typing.Callable[[], str]],
         headers: typing.Optional[typing.Dict[str, str]] = None,
         timeout: typing.Optional[float] = None,
@@ -190,7 +190,7 @@ class AsyncMarktMentor:
 
 
 
-        Defaults to MarktMentorEnvironment.DEFAULT
+        Defaults to MarktMentorEnvironment.PRODUCTION
 
 
 
@@ -235,7 +235,7 @@ class AsyncMarktMentor:
         self,
         *,
         base_url: typing.Optional[str] = None,
-        environment: MarktMentorEnvironment = MarktMentorEnvironment.DEFAULT,
+        environment: MarktMentorEnvironment = MarktMentorEnvironment.PRODUCTION,
         token: typing.Union[str, typing.Callable[[], str]],
         headers: typing.Optional[typing.Dict[str, str]] = None,
         async_token: typing.Optional[typing.Callable[[], typing.Awaitable[str]]] = None,

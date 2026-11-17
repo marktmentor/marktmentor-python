@@ -1,9 +1,9 @@
-# Marktmentor Python Library
+# MarktMentor Python Library
 
-[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=Marktmentor%2FPython)
+[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=MarktMentor%2FPython)
 [![pypi](https://img.shields.io/pypi/v/marktmentor)](https://pypi.python.org/pypi/marktmentor)
 
-The Marktmentor Python library provides convenient access to the Marktmentor APIs from Python.
+The MarktMentor Python library provides convenient access to the MarktMentor APIs from Python.
 
 ## Table of Contents
 
@@ -58,7 +58,7 @@ from marktmentor import MarktMentor
 from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 ```
 

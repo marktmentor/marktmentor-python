@@ -4,4 +4,4 @@ import enum
 
 
 class MarktMentorEnvironment(enum.Enum):
-    DEFAULT = "https://api.marktmentor.nl"
+    PRODUCTION = "https://api.marktmentor.nl"

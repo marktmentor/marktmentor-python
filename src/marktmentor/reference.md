@@ -34,7 +34,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.list(
@@ -258,7 +258,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.get(
@@ -353,7 +353,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.sales_history(
@@ -462,7 +462,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.visibility_history(
@@ -571,7 +571,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.category_rankings(
@@ -680,7 +680,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.keyword_rankings(
@@ -798,7 +798,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.keywords(
@@ -909,7 +909,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.sellers(
@@ -1005,7 +1005,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.reviews(
@@ -1163,7 +1163,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.products.review_summary(
@@ -1247,7 +1247,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.list(
@@ -1381,7 +1381,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.get(
@@ -1484,7 +1484,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.review_history(
@@ -1593,7 +1593,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.review_summary(
@@ -1668,7 +1668,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.product_distributions(
@@ -1755,7 +1755,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.products(
@@ -1980,7 +1980,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.niches.reviews(
@@ -2131,7 +2131,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.reference.categories(
@@ -2238,7 +2238,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.reference.category(
@@ -2313,7 +2313,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.reference.brands(
@@ -2397,7 +2397,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.organization.get()
@@ -2463,7 +2463,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.usage.get()
@@ -2529,7 +2529,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.store.overview()
@@ -2613,7 +2613,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.store.products()
@@ -2774,7 +2774,7 @@ from marktmentor.environment import MarktMentorEnvironment
 
 client = MarktMentor(
     token="<token>",
-    environment=MarktMentorEnvironment.DEFAULT,
+    environment=MarktMentorEnvironment.PRODUCTION,
 )
 
 client.store.inventory(
