@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "marktmentor"
-version = "0.1.0"
+version = "0.1.1"
 description = "Official SDK for the MarktMentor Public API: bol product research and your own store data."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -20,6 +20,14 @@ Documentation = "https://api.marktmentor.nl"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/marktmentor"]
+# Fern's own generator tests and metadata are not part of the package.
+exclude = ["src/marktmentor/.fern", "src/marktmentor/tests"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+# The source distribution holds the package, README and LICENSE only: no tests
+# or CI workflow. (hatchling always adds the root .gitignore.)
+[tool.hatch.build.targets.sdist]
+only-include = ["src/marktmentor", "README.md", "LICENSE"]
+exclude = ["src/marktmentor/.fern", "src/marktmentor/tests"]
