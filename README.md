@@ -1,13 +1,19 @@
 # marktmentor
 
 Official Python SDK for the [MarktMentor Public API](https://api.marktmentor.nl):
-bol product research and your own store data.
+bol product research and your own store data. Requires Python 3.10 or later.
+
+```sh
+pip install marktmentor
+```
 
 Try it without an account with the public test key `mm_test_demo`: it answers
 every endpoint with fixed example data (product `9300000138905032`, niche
 `6797`), free. See <https://api.marktmentor.nl/guides/test-key>.
 
 ```python
+from marktmentor import MarktMentor
+
 client = MarktMentor(token="mm_test_demo")
 print(client.products.get("9300000138905032").data.title)
 ```

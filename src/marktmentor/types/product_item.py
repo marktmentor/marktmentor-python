@@ -34,8 +34,17 @@ class ProductItem(UniversalBaseModel):
         typing.Optional[str], FieldMetadata(alias="imageUrl"), pydantic.Field(alias="imageUrl")
     ] = None
     available_since: typing_extensions.Annotated[
-        typing.Optional[dt.date], FieldMetadata(alias="availableSince"), pydantic.Field(alias="availableSince")
+        typing.Optional[dt.date],
+        FieldMetadata(alias="availableSince"),
+        pydantic.Field(
+            alias="availableSince",
+            description="The first day MarktMentor saw the product on bol. For a product that came on bol after MarktMentor started to follow its category, this is about its launch date. An older product can be on bol for longer.",
+        ),
     ] = None
+    """
+    The first day MarktMentor saw the product on bol. For a product that came on bol after MarktMentor started to follow its category, this is about its launch date. An older product can be on bol for longer.
+    """
+
     rating: typing.Optional[float] = pydantic.Field(default=None)
     """
     Average rating over all reviews, in stars from 1 to 5.
