@@ -11,6 +11,8 @@ Try it without an account with the public test key `mm_test_demo`: it answers
 every endpoint with fixed example data (product `9300000138905032`, niche
 `6797`), free. See <https://api.marktmentor.nl/guides/test-key>.
 
+Examples (Python scripts and a demo web app, MIT): <https://github.com/marktmentor/marktmentor-api-examples>.
+
 ```python
 from marktmentor import MarktMentor
 

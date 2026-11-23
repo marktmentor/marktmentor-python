@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "marktmentor"
-version = "0.1.5"
+version = "0.1.6"
 description = "Official SDK for the MarktMentor Public API: bol product research and your own store data."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -17,6 +17,8 @@ dependencies = [
 
 [project.urls]
 Documentation = "https://api.marktmentor.nl"
+Source = "https://github.com/marktmentor/marktmentor-python"
+Examples = "https://github.com/marktmentor/marktmentor-api-examples"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/marktmentor"]
